@@ -1,0 +1,27 @@
+# Node.js (para front y back)
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*
+
+# Directorios de compilación
+dist/
+build/
+
+# Directorios específicos del front
+/front/node_modules/
+/front/build/
+/front/dist/
+/front/.env
+
+# Directorios específicos del back
+/back/node_modules/
+/back/.env
+/back/.env.local
